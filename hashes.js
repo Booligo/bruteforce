@@ -4,5 +4,5 @@ const fs = require('fs');
     let hash =[];
     hash.push(password_hashes.split(/\r?\n/).filter(function(x){return x}).map(function(x){return x}));
     return  hash[0];
-};
+}
 module.exports.hashes = hashes;
