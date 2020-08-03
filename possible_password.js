@@ -4,6 +4,6 @@ const fs = require('fs');
     let pass=[];
     pass.push(possible_passwords.split(/\r?\n/).filter(function(x){return x}).map(function(x){return x}));
     return pass[0];
-};
+}
 module.exports.password = password;
 

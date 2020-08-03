@@ -11,14 +11,14 @@ function crack() {
         for (let j = 0; j < hashes.length; j++) {
             let k=0;
             for (let i = 0; i < pass.length; i++) {
-            if (md5(`${sol[k]}$${pass[i]}`) === hashes[j]) {
-                console.log(`password plaintext:${sol[k]}$${pass[i]} = hash:${hashes[j]}`);
-                break;
-                }
                 count++;
-                if(k<110) {
-                    k++;
-                }else k=0;
+                    if (md5(`${sol[k]}$${pass[i]}`) === hashes[j]) {
+                    console.log(`password plaintext:${sol[k]}$${pass[i]} = hash:${hashes[j]}`);
+                    break;
+                    }
+                    if(k<sol.length){
+                        k++;
+                    }else k=0;
         }
     }
     console.log('time - ',((new Date()) * 1) - start,'ms');
