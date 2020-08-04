@@ -1,7 +1,7 @@
 # bruteforce
  Bruteforce hashed passwords
 
-/n Create a bruteforce program in php to crack the passwords. Print out only first cracked password.
+\n Create a bruteforce program in php to crack the passwords. Print out only first cracked password.
 
  /n Inputs:
 /n	1. File password contains 100 password hashes
