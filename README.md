@@ -13,4 +13,8 @@
 	1. Print out cracked password in format "<password plaintext> = <password hash>\n". 
 	2. Print out the number of tries in format "count = <count>\n".
 	3. Print out time in seconds to reach the result (2 decimal precision) in format "time = <time>\n".
+	
+	
+# How to use whose code:
+Create a project in Webstorm (or download to an existing one), download all the adjacent files (most of the modules with package.json will not be useful, but they are very useful in the future), install the module and that's all
 
