@@ -2,7 +2,7 @@ const md5 = require('md5');
 const salt = require('./routes/salt');
 const password = require('./routes/helper');
 const hash = require('./routes/helper');
-const hashes = hash.get_data_of_file("pass-hash/passwords.txt");
+const hashes = hash.get_data_of_file("./pass-hash/passwords.txt");
 const pass = password.get_data_of_file("./pass-hash/dictionary.txt");
 const sol = salt.get_salt();
 function crack() {
