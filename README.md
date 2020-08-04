@@ -16,5 +16,5 @@
 	
 	
 # How to use whose code:
-Create a project in Webstorm (or download to an existing one), download all the adjacent files (most of the modules with package.json will not be useful, but they are very useful in the future), install the module and that's all
+Create a project in Webstorm (or download to an existing one), download all the adjacent files (most of the modules with package.json will not be useful, but they are very useful in the future), install the module and that's all.1 more nuance when you open the bruteforce.js file, change the path when calling the function to (./passwords.txt or dictuonary.txt) or create a pass-hash folder and move the txt files there.
 
